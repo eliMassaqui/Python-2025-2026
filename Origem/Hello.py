@@ -9,7 +9,7 @@ retotorno_2 = diz_ola(nome="João")
 resultado = retotorno_1, retotorno_2
 
 global printando
-printando = "12345"
+printando = "123"
 
 for n in printando:
     print(resultado)
