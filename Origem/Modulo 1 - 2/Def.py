@@ -12,3 +12,7 @@ chamar("Eli")
 # Porque aqui aparece NONE pra quando printamos o retorno_2 a sós
 retorno_2 = chamar(nome="Robot")
 # print(retorno_2)
+
+# Alerta: Diferença entre parametros e argumentos
+# Paramentro é a variavel primitiva da função
+# Argumento é a mudança ou variação desse primitivo da função.
