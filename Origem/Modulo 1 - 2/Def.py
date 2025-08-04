@@ -3,7 +3,7 @@
 # A função pode ter parametros, como seus seus espaço primitivo que vária!
 print("Sobre funções!")
 
-# Parametro chamado nome!
+# Parametro chamado nome:
 def chamar(nome):
     return print(f"Olá Mundo, meu nome é {nome}")
 
