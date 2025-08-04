@@ -3,7 +3,10 @@
 # A função pode ter parametros, como seus seus espaço primitivo que vária!
 print("Sobre funções!")
 
-def function():
-    return print('Eestamos na def')
+# Parametro chamado nome!
+def chamar(nome):
+    return print(f"Olá Mundo, meu nome é {nome}")
 
-function()
+#Duas formas diferentes de se chamar uma função!
+chamar("Eli")
+retorno_2 = chamar(nome="Robot")
