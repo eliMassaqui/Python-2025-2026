@@ -9,4 +9,6 @@ def chamar(nome):
 
 #Duas formas diferentes de se chamar uma função!
 chamar("Eli")
+# Porque aqui aparece NONE pra quando printamos o retorno_2 a sós
 retorno_2 = chamar(nome="Robot")
+# print(retorno_2)
