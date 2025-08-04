@@ -11,4 +11,4 @@ resultadoExpoente = int(numero) * int(expoente)
 
 # Agora fazemos o tratamento, agora na função de interpolação de strings
 # Não esquecer do f antes da string
-print(f"O resultado do {numero} elevado a {expoente} é igual: {resultadoExpoente}")
+print(f"O resultado de {numero} elevado a {expoente} é igual: {resultadoExpoente}")
