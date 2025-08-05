@@ -1,18 +1,17 @@
-# Palavara reservada chamda def pra usar função!
-# Nome da função, não pode ser igual a uma palabra reservada!
-# A função pode ter parametros, como seus seus espaço primitivo que vária!
+# Palavra reservada chamada def para criar função!
+# Nome da função não pode ser igual a uma palavra reservada!
+# A função pode ter parâmetros, que são variáveis locais da função.
 print("Sobre funções!")
 
-# Parametro chamado nome:
+# Parâmetro chamado nome:
 def chamar(nome):
-    return print(f"Olá Mundo, meu nome é {nome}")
+    return f"Olá Mundo, meu nome é {nome}"
 
-#Duas formas diferentes de se chamar uma função!
-chamar("Eli")
-# Porque aqui aparece NONE pra quando printamos o retorno_2 a sós
+# Duas formas diferentes de se chamar uma função!
+print(chamar("Eli"))
 retorno_2 = chamar(nome="Robot")
-# print(retorno_2)
+print(retorno_2)
 
-# Alerta: Diferença entre parametros e argumentos
-# Paramentro é a variavel primitiva da função
-# Argumento é a mudança ou variação desse primitivo da função.
+# Alerta: Diferença entre parâmetros e argumentos
+# Parâmetro é a variável definida na função
+# Argumento é o valor passado para o parâmetro na chamada da função
