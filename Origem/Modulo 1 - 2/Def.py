@@ -11,7 +11,3 @@ def chamar(nome):
 print(chamar("Eli"))
 retorno_2 = chamar(nome="Robot")
 print(retorno_2)
-
-# Alerta: Diferença entre parâmetros e argumentos
-# Parâmetro é a variável definida na função
-# Argumento é o valor passado para o parâmetro na chamada da função
